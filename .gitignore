@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.nextflow/
+work/
+.env
+data/processed/*
+!data/processed/.gitkeep
