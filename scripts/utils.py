@@ -14,7 +14,7 @@ def ReverseComplement(pattern):
 
 def HammingDistance(s1, s2):
     if len(s1) != len(s2):
-        raise ValueError("Las cadenas deben tener la misma longitud")
+        raise ValueError("The two strings must be of equal length.")
     distancia = 0
     for a, b in zip(s1, s2):
         if a != b:
