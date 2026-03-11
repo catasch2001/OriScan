@@ -6,3 +6,5 @@ work/
 .env
 data/processed/*
 !data/processed/.gitkeep
+COMANDOS.md
+nextflow.config
